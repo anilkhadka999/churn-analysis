@@ -25,6 +25,9 @@ This folder contains the data preparation outputs for the **Customer Churn Analy
 - `Scaling_Techniques_Documentation.md`  
   Documentation of the scaling approach used in preprocessing.
 
+- `Scaling_Techniques_Documentation.pdf`  
+  Documentation of the scaling approach used in preprocessing (PDF).
+
 ## Summary of preprocessing work
 
 The original dataset contained **7043 rows and 10 columns**. Initial inspection showed that there were **no missing values**, but **302 duplicate rows** were present. After duplicate removal, the cleaned dataset contained **6741 rows**.
