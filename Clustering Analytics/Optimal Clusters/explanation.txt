@@ -1,0 +1,21 @@
+1. Elbow Method
+
+The elbow method evaluates how the inertia (within-cluster variance) changes as the number of clusters (K) increases.
+
+From the plot:
+
+There is a sharp decrease in inertia from K = 2 to K = 4
+After K = 4, the curve begins to flatten, indicating diminishing improvement
+
+This point of inflection at K = 4 represents the “elbow,” where adding more clusters does not significantly improve clustering performance.
+
+2. Silhouette Score
+
+The silhouette score measures how well-separated and cohesive the clusters are, with values ranging from -1 to 1.
+
+From the plot:
+
+The highest silhouette score occurs at K = 4 (0.47)
+After K = 4, the score declines, indicating poorer cluster separation
+
+This confirms that K = 4 produces the most well-defined clusters
